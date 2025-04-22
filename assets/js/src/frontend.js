@@ -13,6 +13,7 @@ const intersectionObserver = new window.IntersectionObserver(
 		} );
 	},
 	{
+		rootMargin: '800px 0px',
 		threshold: 0.5,
 	}
 );
